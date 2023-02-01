@@ -1,0 +1,80 @@
+* {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+body {
+    background-image: url('images/sci\ fi.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#clock {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 400px;
+    color: white;
+}
+
+.time {
+    background-color: rgb(27, 27, 98);
+    font-size: 3rem;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+span {
+    background-color: rgb(27, 27, 98);
+    font-size: 2rem;
+    padding: 5px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.ampm {
+    background-color: rgb(101, 32, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    padding: 15px;
+    opacity: 0.8;
+}
+.background2 {
+    background-image: url('images/sci\ color\ 3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.time2 {
+    background-color: rgb(103, 103, 181);
+    font-size: 3rem;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.ampm2 {
+    background-color: rgb(168, 110, 222);
+    color: rgb(113, 1, 117);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    padding: 15px;
+    opacity: 0.8;
+}
